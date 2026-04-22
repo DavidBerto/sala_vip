@@ -100,4 +100,3 @@ if st.button("Executar Análise e Rastrear no MLflow", type="primary"):
         st.markdown("**Resultados Detalhados**")
         st.dataframe(df_resultados, use_container_width=True)
         
-        st.info("💡 **Nota sobre MLflow no Streamlit Community Cloud:** Os logs e artefatos do MLflow são gerados na pasta oculta `mlruns` desta sessão. Em um ambiente de produção definitivo, apontaríamos o MLflow para um banco de dados persistente (ex: AWS RDS ou DagsHub).")
